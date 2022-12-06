@@ -16,16 +16,18 @@
 
                 <nav aria-label="primary-navigation">
                     <ul>
-                        <li><a href="about.html">About LTS</a></li>
-                        <li><a href="menu.html">Our Menu</a></li>
-                        <li><a href="store.html">Store Home</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="#about">About LTS</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#store">Store Home</a></li>
+                        <li><a href="#contact">Contact us</a></li>
                     </ul>
                 </nav>
                 <p>
                     <figure>
                         <img src="/img/tacos_and_drink_400x267.png" alt="Tacos and Drinks" title="Tacos and a Drink" width="400" height="267">
-                        <figcaption>Tacos and a Drink</figcaption>
+                        <figcaption>
+                            Tacos and a Drink
+                        </figcaption>
                     </figure>
                 </p>
    </header>
@@ -33,11 +35,11 @@
    <hr>
 
    <main>
-        <article>
+        <article id="about">
             <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
 
             <p>
-                <abbr title="Little Taco Shop">LTS</abbr> was found in 2022. Our shop was built from a love of tacos <img src="/favicon.ico" alt="taco image" title="Taco" width="48" height="48"><img src="/favicon.ico" alt="taco image" title="Taco" width="48" height="48"><img src="/favicon.ico" alt="taco image" title="Taco" width="48" height="48">. We hope 
+                <abbr title="Little Taco Shop">LTS</abbr> was found in <time datetime="2022">2022</time>. Our shop was built from a love of tacos 🌮🌮🌮. We hope 
                 <br>
                 our shop adds a unique and interesting place to our little town.
             </p>
@@ -49,7 +51,7 @@
                 <details>
                     <summary>When did tacos<mark> first appear</mark> I in the United States?</summary>
                     <p>
-                        It was 1920.
+                        It was <time datetime="1920">1920</time>.
                     </p>
                 </details>
             </aside>
@@ -57,7 +59,7 @@
 
         <hr>
 
-        <article>
+        <article id="menu">
             <h2>Our Menu</h2>
 
             <table>
@@ -65,14 +67,14 @@
                 <thead>
                     <tr>
                         <th>Tacos</th>
-                        <th><abbr title="Quantity">Qty</abbr></th>
-                        <th>Price</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th rowspan="3">Crunchy</th>
-                        <td>1</td>
+                        <th scope="row" rowspan="3">Crunchy</th>
+                        <td >1</td>
                         <td>$1.50</td>
                     </tr>
                     <tr>
@@ -99,21 +101,21 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="3">Chips & Salsa $2</td>
+                        <td colspan="3">Chips &amp; Salsa $2</td>
                     </tr>
                 </tfoot>
             </table>
         </article>
    </main>
    
-   <footer>
     <p>
         <a href="#">Back to Top</a>
     </p>
     <hr>
-    <p>
-        Copyright &copy; The little Taco Shop
-    </p>
+    <footer>
+        <p>
+            Copyright &copy; The little Taco Shop
+        </p>
    </footer>
 </body>
 </html>
